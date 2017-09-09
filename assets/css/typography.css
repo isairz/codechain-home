@@ -238,3 +238,22 @@ pre {
 		line-height:22px;
 	}
 }
+
+#mc_embed_signup #mce-EMAIL {
+	max-width: 424px;
+	width: 80%;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+	background-color: transparent;
+	border:#0F1113 2px solid;
+	color: #0F1113;
+	font-weight: normal;
+	margin-top: 10px;
+	padding-bottom: 16px;
+	padding-top: 14px;
+}
+
+#mc_embed_signup #mc-embedded-subscribe:hover {
+	background-color: #fff;
+}
