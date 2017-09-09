@@ -388,7 +388,6 @@ section .btn {
 		font-size: 200%; line-height:100%;
 		font-weight: 300;
 		color: #fff;
-		text-transform: uppercase;
 		text-shadow:none;
 	}
 	#home .image-caption .inner {
