@@ -378,13 +378,13 @@ section .btn {
 		line-height:95%;
 		text-transform:uppercase;
 		text-shadow:none;
-		color:#fff;	display:block;
+		color:#000;	display:block;
 	}
 	#home .image-caption p {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 200%; line-height:100%;
 		font-weight: 300;
-		color: #fff;
+		color: #000;
 		text-shadow:none;
 	}
 	#home .image-caption .inner {
