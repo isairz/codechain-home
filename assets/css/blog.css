@@ -148,6 +148,9 @@ div.blog-header p {
 		padding:20px;
 		margin:15px 0;
 	}
+	#team .quick-item h4 {
+		padding-bottom: 10px;
+	}
 	#team .quick-item:hover {
 		box-shadow:#eee 0 0 15px;
 	}
