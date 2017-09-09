@@ -13,6 +13,15 @@
 			<script type="text/javascript" src="assets/plugins/lt-ie9/excanvas.compiled.js"></script>
 		<![endif]--> 
 
+		<style type="text/css">
+			#mc_embed_signup {
+				clear: left;
+				text-align: center;
+			}
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		</style>
+
 		<!-- GOOGLE FONTS -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
 
@@ -108,7 +117,7 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#home" class="scrollTo">Home</a></li>
 							<li><a href="#team" class="scrollTo">Team</a></li>
-							<li><a href="#contact" class="scrollTo">Contact</a></li>
+							<li><a href="#subscribe" class="scrollTo">Subscribe</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 
@@ -244,62 +253,34 @@
 		<!-- /QUOTE -->
 
 
-		<!-- CONTACT -->
-		<section id="contact" class="alternate arrow-down">
+		<!-- SUBSCRIBE -->
+		<section id="subscribe" class="alternate arrow-down">
 			<div class="container">
 				<header class="text-center">
-					<h1>CONTACT</h1>
+					<h1>Subscribe</h1>
 				</header>
 
 				<div class="divider"><!-- lines divider --></div>
 
 				<article>
-					<p class="text-center big-paragraph">
-						Drop us a line or just say <strong><em>Hello!</em></strong>
-						<small class="fsize15 block">
-							Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong> elit. <br />
-							Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc.
-						</small>
-					</p>
-				</article>
-
-				<article>
-
-					<!-- Alert -->
-					<div id="_sent_ok_" class="alert alert-success fade in fsize16 hide">
-						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-						<span id="_msg_txt_"><strong>Thank You!</strong> Your message successfully sent!</span>
-					</div>
-
-					<!-- Form -->
-					<form id="contactForm" method="post" action="php/contact.php" class="white block form-inline">
-						<div class="row">
-							<div class="col-md-4"><input required class="fullwidth" type="text" name="contact_name" id="contact_name" value="" placeholder="NAME *" title="Name" /></div>
-							<div class="col-md-4"><input required class="fullwidth" type="email" name="contact_email" id="contact_email" value="" placeholder="EMAIL *" title="Email" /></div>
-							<div class="col-md-4"><input class="fullwidth" type="text" name="contact_subject" id="contact_subject" value="" placeholder="SUBJECT" title="subject" /></div>
-						</div>
-
-						<div class="row">
-							<div class="col-md-12"><textarea required class="fullwidth" rows="5" name="contact_comment" id="contact_comment" placeholder="MESSAGE *"></textarea></div>
-							<div class="col-md-12">
-								<input type="hidden" name="captcha" id="captcha" value="" /><!-- hidden field - humans should not see it, only spam bots will see it -->
-								<button id="contact_submit" class="btn btn-default">SEND MESSAGE</button>
+					<!-- Begin MailChimp Signup Form -->
+					<div id="mc_embed_signup">
+						<form action="//kodebox.us16.list-manage.com/subscribe/post?u=51f164251116e8c09451006ca&amp;id=1c802d56ea" method="post"
+						 id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
+								<label for="mce-EMAIL">Sign up to get the latest news and updates from CodeChain.</label><p/>
+								<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_51f164251116e8c09451006ca_1c802d56ea" tabindex="-1" value=""></div>
+								<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 							</div>
-						</div>
-					</form>
-
+						</form>
+					</div>
 				</article>
 
 			</div>
 		</section>
-		<!-- /CONTACT -->
-
-
-
-
-
-
-
+		<!-- /SUBSCRIBE -->
 
 		<!-- FOOTER -->
 		<footer>
